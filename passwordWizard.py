@@ -1,4 +1,4 @@
-# Password Generator V1.9 08/12/2016 14:51
+#Password Wizard
 # Tom Kuipers
 # Version Notes: Fixed URL ico downoad. Finished check box validation!
 # Known issues: The about button renders everything unresponisve, reload required. Suspicion is that I'm not properly returning from the about function. WAS FIXED.
