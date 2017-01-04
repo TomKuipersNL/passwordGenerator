@@ -1,19 +1,4 @@
 #Password Wizard
-# Tom Kuipers
-# Version Notes: Fixed URL ico downoad. Finished check box validation!
-# Known issues: The about button renders everything unresponisve, reload required. Suspicion is that I'm not properly returning from the about function. WAS FIXED.
-# Something interesting I found, the GUI won't update dynamically, every time you want to add a widget while the program is running you have to re-initialize the Tkinter GUI class. <-- I take that back, just use a textvariable in your label and a StringVar. For everything else though, it still stands.
-# TO-DO: Implement data import using shelve. Implement AES encryption with PyCrypto
-# Direction of Project: Implement another Tkinter window with a table, allowing you to store passwords and give a friendly name. Implement AES 256-bit encryption for that table. (Need to look in to storage file type).
-#
-# NOTE: time.sleep() is of no use in Tkinter. It is very linear in the way that what it does is halts the program for x seconds and then resumes. [widget].after(ms, function) is much better as Tkinter runs it in another thread, so the program still functions while things get updated in the background.
-# NOTE: For the checkboxes, if I can make a set of if statements and add states to the checkboxes (True or False) then I can generate the passwords
-#       so that if the state is true, ammend one big command and parse it the algorithm. Going to take time, so will be tested in checkboxes.py.
-# NOTE: Tkinter allows for frame stacking. You can toggle which frame to display and it requires a controller for which you can 
-
-#Main font to be used. This is kind of like CSS, declaring a default rule and then displaying the GUI by options set by a variable.
-
-#
 
 main_font = ("Helvetica", 12, "bold")
 import tkinter
